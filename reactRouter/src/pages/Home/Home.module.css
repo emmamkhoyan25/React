@@ -1,0 +1,9 @@
+div{
+    transition: 0.3s;
+}
+
+.active{padding: 20px;
+    background-color: rgba(0, 136, 255, 0.142);
+   margin: 10px;
+   border-radius: 5px;
+}

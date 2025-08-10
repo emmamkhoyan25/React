@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    buttom {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+ color: black;
+font-weight: 600;
+font-size: 70px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}

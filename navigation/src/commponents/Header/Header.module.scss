@@ -1,0 +1,55 @@
+.header {background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    h1{
+        color: black;
+    }
+    nav {
+        display: flex;
+        gap: 20px;
+
+        a {
+            color: black;
+            border-bottom: 2px solid transparent;
+
+            &.active {
+                border-bottom: 2px solid black;
+            }
+        }
+    }
+
+    &_login {
+        position: relative;
+   
+        bottom:first-child {
+            background-color: blueviolet;
+
+        }
+
+        form {
+            position: absolute;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            top: -100dvh;
+            opacity: 0;
+            transition: opacity 0.3s;
+
+
+            &.active {
+                top: 30px;
+                z-index: 1;
+                opacity: 1;
+            }
+        }
+    }
+
+}

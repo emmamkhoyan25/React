@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    buttom {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+:root {
+    --black: #00000032;
+    --white: #ffffff;
+}

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --yellow:rgba(165, 155, 12, 0.521);
+    --blue:rgba(25, 136, 188, 0.527);
+}
+.container{margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 48px;
+}

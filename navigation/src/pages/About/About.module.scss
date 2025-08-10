@@ -1,0 +1,20 @@
+h1{
+    color: var(--blue);
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+.about_img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    img {
+        width: 100%;
+    }
+  
+}
+.styles.about_img{
+    width: 100%;
+}

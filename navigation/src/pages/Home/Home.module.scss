@@ -1,0 +1,12 @@
+
+.prod_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+    img{
+        margin: 0 auto;
+    }
+}
